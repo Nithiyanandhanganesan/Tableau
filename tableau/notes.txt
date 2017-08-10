@@ -1,0 +1,87 @@
+
+www.tableau.com
+
+
+tableau desktop - All your development is done here. From creating reports, charts, formatting them, putting them together as a dashboard all the work is done on Tableau Desktop. 
+tableau server  - The dashboards you create are shared with other users using Tableau Server. When you upload(publish) a Dashboard to Tableau Server from Tableau Desktop, other users can access those Dashboards by logging on Tableau Server.
+tableau online  - I haven't use Tableau online but it's an alternative to Tableau Server in which the servers are on Cloud. Servers are not maintained by users but by Tableau guys. Needs subscription fees. 
+tableau public  - Tableau Public is free tool offered by the Tableau organization. The Tableau Public is mainly used for publishing interactive data in online, which can be accessible by everyone. 
+tableau reader  - read tableau file without tableau desktop installed
+
+DataSources:
+
+excel, textfile, access, statisticalfile , other files
+
+Tableau file types:
+===================
+
+tableau bookmark (.tbm)
+  - stores connection to a worksheet in another workbook
+tableau data extract (.tde)
+  - stoes data as a filtered and aggregated.
+tableau packaged workbook(.twbx)
+  - view results in tableau reader
+
+
+PAGES:
+  - divide data
+FILTERS:
+  - filter the data
+MARKS:
+  - change the appearance of data.
+
+Connect -> Excel -> open excel file -> Open -> Sheet 1
+
+JOIN:
+======
+
+load two excel files
+drag the files need to be joined
+enter the join columns 
+
+tableau data interpreter will be used if the data in excel is not proper.
+
+Show me:
+========
+
+- used for visualisation format.
+
+select the columns name in the left and select any measures and select any map from "Show me".
+
+consolidate all the worksheet using "New Story" option present below.
+
+Add new data:
+=============
+
+Data -> New Data Source 
+or
+Data -> last option -> View Data
+
+Worksheet -> clean -> sheet ==> will clear all map in the current worksheet.
+Worksheet -> Show summary/title/caption/cards === to hide / show elements in interface.
+
+When you first connect to a data source, Tableau assigns any fields that contain discrete categorical information (for example, fields where the values are strings or Boolean values) to the Dimensions area in the Data pane.
+When you first connect to a data source, Tableau assigns any fields that contain quantitative, numerical information (that is, fields where the values are numbers) to the Measures area in the Data pane.
+
+
+Calculated fields:
+==================
+
+eg: multiple two measures and generate new values
+
+Down arrow to the right of "Dimensions" -> create calculated fields
+
+Filters:
+========
+
+Drag the fields in dimension area to to Filters area. 	
+
+
+Add text in tableau = right click -> annotate -> area
+
+Global filters:
+===============
+
+apply filter to any single worksheet
+on dashboard, right click the filter -> apply to worksheets -> all using this data source
+  
